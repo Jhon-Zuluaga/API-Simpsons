@@ -1,0 +1,41 @@
+/* --- ESTILOS MAESTROS DE SPRINGFIELD --- */
+
+:root {
+    --simpson-yellow: #FFD90F;
+    --simpson-blue: #0094FF;
+    --simpson-border: #000000;
+}
+
+/* Evitar que el Sidebar se estire horizontalmente */
+#accordionSidebar {
+    width: 250px !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+    display: flex !important;
+}
+
+/* Arreglar el tamaño de Homer en el Topbar */
+.img-profile {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain;
+    border: 2px solid #000;
+    background-color: white;
+}
+
+/* El fondo celeste para el contenido */
+#content-wrapper {
+    background-color: #87CEEB !important;
+    flex: 1;
+}
+
+/* Bordes tipo Comic para las tablas y cards */
+.card, .navbar, .sidebar {
+    border: 4px solid var(--simpson-border) !important;
+    box-shadow: 8px 8px 0px rgba(0,0,0,0.15) !important;
+}
+
+/* Fuente tipo caricatura para todo */
+body {
+    font-family: 'Patrick Hand', cursive, 'Comic Sans MS' !important;
+}
